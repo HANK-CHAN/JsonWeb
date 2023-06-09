@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/historicImg"
+        android:src="@mipmap/htimage"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="標題"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:text="地點"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infohtml"
+            android:text="網址"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+
+            />
+        <!--            android:autoLink="web"-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="時間"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+             />
+
+
+    </LinearLayout>
+
+</LinearLayout>
